@@ -36,6 +36,6 @@
 
   <h4>Link Projects</h4>
   <p>
-      <a href="https://dwiiipoetra.github.io/reactdev_dicoding/dasar_web.html">Dasar Pemrograman Web</a>
+      <a href="https://dwiiipoetra.github.io/reactdev_dicoding/dasar_web/">Dasar Pemrograman Web</a>
   </p>
 </div>
