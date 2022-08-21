@@ -37,5 +37,6 @@
   <h4>Link Projects</h4>
   <p>
       <a href="https://dwiiipoetra.github.io/reactdev_dicoding/dasar_web/">Dasar Pemrograman Web</a>
+      <a href="https://dwiiipoetra.github.io/reactdev_dicoding/frontend_pemula/todo_apps">Front End Pemula (Todo Apps)</a>
   </p>
 </div>
