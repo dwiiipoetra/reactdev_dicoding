@@ -34,9 +34,24 @@
   </li>
 </ul>
 
-  <h4>Link Projects</h4>
-  <p>
-      <a href="https://dwiiipoetra.github.io/reactdev_dicoding/dasar_web/">Dasar Pemrograman Web</a>
-      <a href="https://dwiiipoetra.github.io/reactdev_dicoding/frontend_pemula/todo_apps">Front End Pemula (Todo Apps)</a>
-  </p>
+<h4>Link Projects</h4>
+  <details>
+     <summary>Dasar Pemrograman Web</summary>
+     <ul>
+      <li>
+        <a href="https://dwiiipoetra.github.io/reactdev_dicoding/dasar_web/">Company Profile (Ventura)</a>
+      </li>
+    </ul>
+   </details>
+  
+  <details>
+     <summary>Frontend Pemula</summary>
+     <ul>
+      <li> 
+        <a href="https://dwiiipoetra.github.io/reactdev_dicoding/frontend_pemula/todo_apps">Web Storage (Todo Apps)</a>
+      </li>
+      <li>
+        <a href="https://dwiiipoetra.github.io/reactdev_dicoding/frontend_pemula/tebak_angka">Web Storage (Tebak Angka)</a>
+      </li>
+   </details>
 </div>
