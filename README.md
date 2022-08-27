@@ -53,5 +53,8 @@
       <li>
         <a href="https://dwiiipoetra.github.io/reactdev_dicoding/frontend_pemula/tebak_angka">Web Storage (Tebak Angka)</a>
       </li>
+      <li>
+        <a href="https://dwiiipoetra.github.io/reactdev_dicoding/frontend_pemula/bookshelf_apps">Web Storage (Bookshelf Apps)</a>
+      </li>
    </details>
 </div>
