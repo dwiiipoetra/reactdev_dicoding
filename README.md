@@ -86,7 +86,7 @@
    </details>
 
 <details>
-        <summary><h2>Membuat Aplikasi Web dengan React</h2></summary>
+        <summary><h2>Aplikasi Web dengan React</h2></summary>
             <h4>Kriteria Submission</h4>
                 <h5 dir="ltr">Kriteria Utama 1: Mampu Menampilkan Daftar Catatan</h5>
                 <ul>
