@@ -84,3 +84,72 @@
                     </li>
                 </ul>
    </details>
+
+<details>
+        <summary><h2>Membuat Aplikasi Web dengan React</h2></summary>
+            <h4>Kriteria Submission</h4>
+                <h5 dir="ltr">Kriteria Utama 1: Mampu Menampilkan Daftar Catatan</h5>
+                <ul>
+                  <li dir="ltr">Aplikasi harus mampu menampilkan daftar catatan dengan data awal (initial data) yang telah kami sediakan.</li>
+                  <li dir="ltr">Memanfaatkan state component untuk menyimpan data catatan.</li>
+                  <li dir="ltr">Menggunakan teknik array map untuk menampilkan daftar catatan.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Utama 2: Mampu Menambahkan Catatan</h5>
+                <ul>
+                  <li dir="ltr">Aplikasi harus mampu menambahkan data catatan baru.</li>
+                  <li dir="ltr">Memanfaatkan controlled component dalam membuat form input.</li>
+                  <li dir="ltr">Data catatan disimpan cukup pada memori saja (akan hilang jika browser di-refresh).</li>
+                  <li dir="ltr">Data catatan yang disimpan merupakan objek JavaScript dengan struktur object.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Utama 3: Mampu Menghapus Catatan</h5>
+                <ul>
+                  <li dir="ltr">Aplikasi harus menyediakan tombol hapus untuk menghapus data catatan yang disimpan.</li>
+                  <li dir="ltr">Terdapat conditional rendering di mana bila tidak terdapat data catatan, maka UI menampilkan pesan “Tidak ada catatan” atau pesan apa pun yang mengindikasikan data catatan kosong.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Opsional 1: Terdapat Fitur Pencarian Catatan</h5>
+                <ul>
+                  <li dir="ltr">Aplikasi memiliki fitur pencarian catatan berdasarkan kata kunci yang dimasukkan, dengan ketentuan:
+                    <ul>
+                      <li dir="ltr">Jika kolom pencarian tidak kosong, maka aplikasi <strong>hanya menampilkan daftar catatan yang judulnya mengandung kata kunci yang dimasukkan.</strong></li>
+                      <li dir="ltr">Jika kolom pencariannya kosong, maka aplikasi menampilkan seluruh catatan.</li>
+                    </ul>
+                  </li>
+                  <li dir="ltr"><p dir="ltr">Memanfaatkan controlled component dalam membangun fitur catatan.<br></p>
+                  </li>
+                </ul>
+                <h5 dir="ltr">Kriteria Opsional 2: Terdapat Limit Karakter pada Input Judul Catatan</h5>
+                <ul>
+                  <li>Aplikasi dapat mencegah pengguna untuk memberikan judul catatan lebih dari 50 karakter.</li>
+                  <li dir="ltr">Menggunakan state dalam melimitasi, bukan atribut <em>maxlength</em>.</li>
+                  <li dir="ltr">
+                    <p dir="ltr">Menampilkan jumlah karakter tersisa yang dapat digunakan oleh pengguna.<br></p>
+                  </li>
+                </ul>
+                <h5 dir="ltr">Kriteria Opsional 3: Terdapat Fitur Arsip Catatan</h5>
+                <ul>
+                  <li dir="ltr">Aplikasi memiliki fitur arsip catatan.</li>
+                  <li dir="ltr">Aplikasi harus menyediakan tombol <strong>arsipkan/pindahkan&nbsp;</strong>untuk mengarsipkan atau memindahkan catatan dari arsip.</li>
+                  <li dir="ltr">
+                    <p dir="ltr">Daftar catatan yang diarsip harus ditampilkan pada tempat terpisah dari catatan yang tidak diarsip.</p>
+                   </li>
+                  </ul>
+                  <h4>Penilaian</h4>
+                  <ul>
+                    <li dir="ltr">Menerapkan kriteria opsional 1: Terdapat Fitur Pencarian Catatan.</li>
+                    <li dir="ltr">Menerapkan kriteria opsional 2: Terdapat Limit Karakter pada Input Judul Catatan.</li>
+                    <li dir="ltr">Menerapkan kriteria opsional 3: Terdapat Fitur Arsip Catatan.</li>
+                    <li dir="ltr">Menuliskan kode dengan baik:
+                      <ul>
+                        <li dir="ltr">Tidak membuat <em>class component</em> yang tidak diperlukan.</li>
+                        <li dir="ltr">Memecah UI menjadi komponen sekecil mungkin (sesuai tanggung jawabnya).</li>
+                        <li dir="ltr">Gaya penulisan harus kode konsisten.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <h4>Link Project</h4>
+                  <ul>
+                      <li> 
+                          <a href="#">Note App (React)</a>
+                      </li>
+                  </ul>
+   </details>
