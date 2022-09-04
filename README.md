@@ -149,7 +149,7 @@
                   <h4>Link Project</h4>
                   <ul>
                       <li> 
-                          <a href="#">Note App (React)</a>
+                          <a href="https://dwiiipoetra.github.io/react-note-app/">Note App (React)</a>
                       </li>
                   </ul>
    </details>
