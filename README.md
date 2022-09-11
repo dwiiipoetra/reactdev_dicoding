@@ -153,3 +153,66 @@
                       </li>
                   </ul>
    </details>
+<details>
+        <summary><h2>Belajar Fundamental Aplikasi Web dengan React</h2></summary>
+            <h4>Kriteria Submission</h4>
+                <h5 dir="ltr">Buatlah Single Page Application menggunakan React dengan kriteria berikut ini:</h5>
+                <h5 dir="ltr">Kriteria Utama 1: Minimal terdapat 2 halaman yang berbeda</h5>
+                <ul>
+                  <li dir="ltr">Halaman 1: menampilkan daftar catatan.</li>
+                  <li dir="ltr">Halaman 2: menampilkan detail catatan atau catatan secara tunggal.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Utama 2: Daftar catatan</h5>
+                <ul>
+                  <li>Menampilkan daftar catatan dengan data awal (initial data) yang kami sediakan.</li>
+                  <li>Data yang ditampilkan pada daftar catatan adalah
+                    <ul>
+                      <li dir="ltr">judul catatan (<span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">title</span>),</li>
+                      <li dir="ltr">waktu pembuatan (<span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">createdAt</span>), dan</li>                        <li dir="ltr">isi catatan (<span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">body</span>).</li>
+                    </ul>
+                  </li>
+                  <li>Terdapat conditional rendering di mana bila tidak terdapat data catatan, UI menampilkan pesan “<strong>Tidak ada catatan</strong>” atau pesan apa pun yang mengindikasikan data catatan kosong.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Utama 3: Detail catatan</h5>
+                <ul>
+                  <li dir="ltr">Menampilkan catatan tunggal yang dipilih pengguna dari daftar catatan aktif atau diarsipkan.</li>
+                  <li dir="ltr">Menggunakan <span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">id&nbsp;</span>catatan sebagai <em>path parameter</em> dalam menampilkan halaman detail catatan.</li>
+                  <li dir="ltr">Catatan yang tampil harus sesuai dengan <span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">id</span> yang terdapat pada path parameter.</li>
+                  <li dir="ltr">Halaman Detil Catatan harus dapat diakses langsung dengan menggunakan URL.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Utama 4: Menambahkan catatan baru</h5>
+                <ul>
+                  <li dir="ltr">Memanfaatkan controlled component dalam membuat form input.</li>
+                  <li dir="ltr">Data catatan disimpan cukup pada memori saja (akan hilang jika browser di-refresh). Kami sarankan untuk memanfaatkan fungsi menyimpan catatan yang disediakan.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Utama 5: Menghapus catatan</h5>
+                <ul>
+                  <li dir="ltr">Aplikasi harus menyediakan tombol <strong>hapus&nbsp;</strong>untuk menghapus data catatan yang disimpan.</li>
+                  <li dir="ltr">Tombol hapus boleh diletakkan di mana saja, tetapi pastikan pengguna dapat mengaksesnya dengan baik. Sebagai contoh, Anda bisa menampilkan pada halaman detail catatan dan/atau daftar catatan.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Utama 6: Memvalidasi properti</h5>
+                <ul>
+                  <li dir="ltr">Memvalidasi seluruh masukkan (props) yang diterima komponen menggunakan PropTypes.</li>
+                  <li dir="ltr">Sebelum mengirimkan submission, pastikan tidak ada warning terkait validasi komponen.</li>
+                </ul>
+                
+                  <h4>Penilaian</h4>
+                  <ul>
+                    <li>Menerapkan kriteria opsional 1: Terdapat Fitur Pencarian Catatan.</li>
+                    <li>Menerapkan kriteria opsional 2: Terdapat Fitur Arsip Catatan.</li>
+                    <li>Menerapkan kriteria opsional 3: Menyediakan halaman 404.</li>
+                    <li>Menuliskan kode dengan baik.
+                      <ul>
+                        <li dir="ltr">Tidak membuat <em>class component</em> yang tidak diperlukan.</li>
+                        <li dir="ltr">Memecah UI menjadi komponen sekecil mungkin (sesuai tanggung jawabnya).</li>
+                        <li dir="ltr">Gaya penulisan kode harus konsisten, seperti penggunaan single <em>quote/double quote</em> ketika membuat nilai string, jumlah spasi dalam indentasi kode, atau penggunaan semicolon pada akhir statement.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <h4>Link Project</h4>
+                  <ul>
+                      <li> 
+                          <a href="#">Todo App (React)</a>
+                      </li>
+                  </ul>
+   </details>
