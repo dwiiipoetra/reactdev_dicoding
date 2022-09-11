@@ -195,7 +195,33 @@
                   <li dir="ltr">Memvalidasi seluruh masukkan (props) yang diterima komponen menggunakan PropTypes.</li>
                   <li dir="ltr">Sebelum mengirimkan submission, pastikan tidak ada warning terkait validasi komponen.</li>
                 </ul>
-                
+                <h5 dir="ltr">Kriteria Opsional 1: Arsip Catatan</h5>
+                <ul>
+                  <li>Catatan terarsip adalah catatan yang properti <span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">archived</span> bernilai <span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">true</span>.</li>
+                  <li>Menyediakan halaman baru untuk menampilkan daftar catatan yang terarsip.
+                    <ul>
+                      <li>Data yang ditampilkan pada daftar catatan adalah<ul><li dir="ltr">judul catatan (<span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">title</span>),</li><li dir="ltr">waktu pembuatan (<span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">createdAt</span>), dan</li><li dir="ltr">isi catatan (<span style="padding:2px 4px;color:rgb(199,37,78);background-color:rgb(249,242,244);">body</span>).</li></ul></li><li>Terdapat conditional rendering di mana bila tidak terdapat data catatan, maka UI menampilkan pesan <strong>“Arsip kosong”</strong> atau pesan apa pun yang mengindikasikan data catatan terarsip kosong.</li>
+                    </ul>
+                  </li>
+                  <li>Mengarsipkan catatan.</li>
+                  <li>Aplikasi harus menyediakan tombol arsip dan batal arsip untuk mengarsipkan dan memindahkan catatan dari arsip.</li>
+                  <li>Tombol arsip dan batal arsip bisa diletakkan di mana saja, tetapi pastikan pengguna dapat mengaksesnya dengan baik. Sebagai contoh, Anda bisa menampilkan pada halaman detail catatan dan/atau daftar catatan.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Opsional 2: Pencarian catatan</h5>
+                <ul>
+                  <li>Aplikasi memiliki fitur pencarian catatan berdasarkan kata kunci yang dimasukkan, dengan ketentuan:
+                    <ul>
+                       <li>Jika kolom pencarian tidak kosong, maka aplikasi <strong>hanya menampilkan daftar catatan yang judulnya mengandung kata kunci yang dimasukkan</strong>.</li>
+                      <li>Jika kolom pencariannya kosong, maka aplikasi menampilkan seluruh catatan.</li>
+                    </ul>
+                  </li>
+                  <li>Memanfaatkan search parameter agar pencarian bersifat shareable melalui URL.</li>
+                  <li>Memanfaatkan <em>controlled component</em> dalam membangun input pencarian.</li>
+                </ul>
+                <h5 dir="ltr">Kriteria Opsional 3: 404 Pages</h5>
+                <ul>
+                  <li dir="ltr">Aplikasi menyediakan halaman khusus bila pengguna mengakses URL aplikasi dengan alamat yang tidak diketahui/diharapkan.</li>
+                </ul>
                   <h4>Penilaian</h4>
                   <ul>
                     <li>Menerapkan kriteria opsional 1: Terdapat Fitur Pencarian Catatan.</li>
