@@ -154,7 +154,7 @@
                   </ul>
    </details>
 <details>
-        <summary><h2>Belajar Fundamental Aplikasi Web dengan React</h2></summary>
+        <summary><h2>Fundamental Aplikasi Web dengan React</h2></summary>
             <h4>Kriteria Submission</h4>
                 <h5 dir="ltr">Buatlah Single Page Application menggunakan React dengan kriteria berikut ini:</h5>
                 <h5 dir="ltr">Kriteria Utama 1: Minimal terdapat 2 halaman yang berbeda</h5>
