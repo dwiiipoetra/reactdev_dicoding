@@ -238,7 +238,7 @@
                   <h4>Link Project</h4>
                   <ul>
                       <li> 
-                          <a href="#">Todo App (React)</a>
+                          <a href="https://todo-app-iota-five.vercel.app/">Todo App (React)</a>
                       </li>
                   </ul>
    </details>
